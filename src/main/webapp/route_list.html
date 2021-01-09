@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>搜索分类页面</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <!-- 加载Bootstrap的所有JavaScript插件，可以根据需要只加载单个插件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <script src="js/route_list.js"></script>
+    <script src="js/header.js"></script>
+</head>
+<body>
+<!-- 页眉部分 -->
+<header class="container-fluid" id="header">
+    <!-- 顶部广告图片 -->
+    <div class="row">
+        <img src="images/top_banner.jpg" class="img-responsive" id="ad">
+    </div>
+    <!-- 功能条 -->
+    <div class="row">
+        <nav class="navbar navbar-default" id="nav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/login_logo.png" id="brand"></a>
+                </div>
+
+                <!-- Collect the nav_common links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse login_btn" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" id="category"></ul>
+                    <ul class="nav navbar-nav navbar-right" id="span_username">
+                        <li class="btn_nav"><a href="login.html">登录</a></li>
+                        <li class="btn_nav"><a href="register.html">注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--logo-->
+    <div class="row">
+        <div class="col-md-4">
+            <img src="images/logo.jpg" class="img-responsive" id="logo">
+        </div>
+        <div class="col-md-4" id="search-box">
+            <input type="text" placeholder="请输入线路名称" id="search-input">
+            <a href="#" id="search-btn">搜索</a>
+        </div>
+        <div class="col-md-4">
+            <img src="images/hotel_tel.png" class="img-responsive" id="tel_pic">
+        </div>
+    </div>
+</header>
+
+<div class="page_one">
+    <div class="contant">
+        <div class="crumbs">
+            <img src="images/search.png" alt="">
+            <p>旅行><span>搜索结果</span></p>
+        </div>
+        <div class="info clearFix">
+            <div class="left">
+                <div class="header row">
+                    <div class="col-md-10">
+                        <span>商品信息</span>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="info_price">价格</span>
+                    </div>
+                </div>
+                <ul id="route" class="row"></ul>
+                <div class="page_num_inf">
+                    <i></i> 共
+                    <span id="totalPage"></span>页<span id="totalCount"></span>条
+                </div>
+                <div class="pageNum">
+                    <ul id="paging"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 页脚部分 -->
+<footer class="container-fluid">
+    <div class="row">
+        <img src="images/footer_service.png" class="image">
+    </div>
+    <div class="row" id="company">
+        <span>CopyRight&nbsp;&copy;&nbsp;2020-2021,All Rights Reserved</span>
+    </div>
+</footer>
+</body>
+
+</html>

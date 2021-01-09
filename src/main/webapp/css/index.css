@@ -1,0 +1,98 @@
+#header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ad {
+    width: 100%;
+}
+
+#nav {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFC900;
+}
+
+#brand {
+    width: 31px;
+    height: 30px;
+    line-height: 50px;
+}
+
+#logo {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#tel_pic {
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+#search-box {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+#search-input {
+    border: 2px solid #ffc900;
+    width: 90%;
+    height: 35px;
+    padding-left: 5px;
+    margin: 0 auto;
+}
+
+#search-btn {
+    float: right;
+    border: 1px solid #ffc900;
+    width: 10%;
+    height: 35px;
+    background-color: #ffc900;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+
+#carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.selection {
+    border-bottom: 2px solid #ffc900;
+    padding: 5px;
+}
+
+.selection_top {
+    padding: 10px;
+}
+
+.taste {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#company {
+    height: 50px;
+    background-color: #ffc900;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.login_btn{
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.btn_nav {
+    width: auto;
+    list-style: none;
+    line-height: 50px;
+    margin: auto 0;
+}
+.price{
+    color: red;
+}

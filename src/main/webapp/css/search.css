@@ -1,0 +1,236 @@
+.contant {
+    width:100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.clearFix:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.page_one .crumbs {
+    width: 100%;
+    margin: 0 auto;
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.page_one .crumbs img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 16px 5px 0 10%;
+}
+
+.page_one .crumbs p{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 55px;
+
+}
+
+.page_one .crumbs span {
+    color: #ff4848;
+}
+
+.page_one .info {
+    width: 90%;
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+.page_one .info .left {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.page_one .info .left .header {
+    width: 90%;
+    margin: 5px auto;
+    background-color: #eee;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 300px;
+}
+
+.page_one .info .left .header .info_price {
+    width: 100%;
+    margin: 0 auto;
+    float: right;
+}
+
+.page_one .info .left > ul li {
+    width: 90%;
+    margin: 10px auto;
+    height: 170px;
+    border: 1px solid #eee;
+    border-left: 0;
+    overflow: hidden;
+}
+
+.page_one .info .left > ul li .img {
+    width: 300px;
+    height: 170px;
+    margin-left: -15px;
+    float: left;
+}
+
+.page_one .info .left > ul li .text {
+    width: 50%;
+    margin: 10px 20px;
+    float: left;
+    padding: 10px;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.page_one .info .left > ul li .text p:nth-of-type(1) {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.page_one .info .left > ul li .price {
+    width: 200px;
+    margin: 35px 45px;
+    text-align: center;
+    float: left;
+    height: 95px;
+    border-left: 1px solid #eee;
+    font-size: 16px;
+}
+
+.page_one .info .left > ul li .price p {
+    line-height: 1;
+}
+
+.page_one .info .left > ul li .price .price_num {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 30px;
+    text-align: center;
+    color: #ff4848;
+}
+
+.page_one .info .left > ul li .price .price_num span:nth-of-type(3) {
+    font-size: 16px;
+}
+
+.page_one .info .left .page_num_inf {
+    width: 90%;
+    margin: 10px auto;
+    color: #878787;
+    font-size: 19px;
+}
+
+.page_one .info .left .page_num_inf i {
+    float: left;
+    width: 4px;
+    background-color: #878787;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.page_one .info .left .page_num_inf span {
+    color: #ff4848;
+}
+
+#ad {
+    width: 100%;
+}
+
+#logo {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#tel_pic {
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+#search-box {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+#search-input {
+    border: 2px solid #ffc900;
+    width: 90%;
+    height: 35px;
+    padding-left: 5px;
+    margin: 0 auto;
+}
+
+#search-btn {
+    float: right;
+    border: 1px solid #ffc900;
+    width: 10%;
+    height: 35px;
+    background-color: #ffc900;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+
+.login_btn {
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.btn_nav {
+    width: auto;
+    float: left;
+    list-style: none;
+    line-height: 50px;
+    margin: auto 0;
+}
+
+/*分页样式*/
+.pageNum {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.pageNum ul li {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.pageNum ul li a {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 16px;
+}
+
+.pageNum ul .page {
+    width: 75px;
+}
+
+#route{
+    width: auto;
+    margin-left: -40px;
+}
+
+.curPage{
+    background-color: #ffc900;
+}
